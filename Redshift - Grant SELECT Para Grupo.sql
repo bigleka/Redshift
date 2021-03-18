@@ -7,6 +7,7 @@
 -- ou personalizado sem ter que ficar dando grant toda a vez que novos objetos são criados.
 -- Outra opção de uso é caso você tenha um Redshift na sua empresa e venda como serviço ele como datalake para algum cliente.
 -- dessa forma você consegue liberar um usuário para que o cliente acesse a estrutura de dados e consiga baixar os dados.
+-- https://leka.com.br/2021/03/17/aws-redshift-usuario-para-leituras/
 
 -- criar um usuário
 create user <username> with password ‘<password>’;
